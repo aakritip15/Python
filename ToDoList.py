@@ -6,6 +6,7 @@ import sqlite3 as sql                   # importing the sqlite3 module as sql
   
 # defining the function to add tasks to the list  
 def add_task():  
+    # getting the string from the entry field  
     task_string = task_field.get()  
     # checking whether the string is empty or not  
     if len(task_string) == 0:  
@@ -133,10 +134,10 @@ if __name__ == "__main__":
     # defining another label using the ttk.Label() widget  
     task_label = ttk.Label(  
         functions_frame,  
-        text = "Enter the Tassk:",  
+        text = "Enter the Task:",  
         font = ("Consolas", "11", "bold"),  
-        background = "#FFFFFF",  
-        foreground = "#FFFFFF"  
+        background = "#FAEBD7",  
+        foreground = "#000000"  
     )  
     # using the place() method to place the label in the application  
     task_label.place(x = 30, y = 40)  
@@ -146,7 +147,7 @@ if __name__ == "__main__":
         functions_frame,  
         font = ("Consolas", "12"),  
         width = 18,  
-        background = "#FFFFFF",  
+        background = "#FFF8DC",  
         foreground = "#A52A2A"  
     )  
     # using the place() method to place the entry field in the application  
@@ -194,8 +195,6 @@ if __name__ == "__main__":
         selectbackground = "#CD853F",  
         selectforeground = "#FFFFFF"  
     )  
-
-
     # using the place() method to place the list box in the application  
     task_listbox.place(x = 10, y = 20)  
   
