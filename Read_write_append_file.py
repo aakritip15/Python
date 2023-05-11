@@ -3,16 +3,6 @@ url = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDev
 filename = 'Example1.txt'
 urllib.request.urlretrieve(url, filename)
 
-
-import asyncio
-
-from pyodide.http import pyfetch
-
-import pandas as pd
-
-filename = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0101EN-SkillsNetwork/labs/Module%204/data/example1.txt"
-
-
 example1 = "example1.txt"
 file1 = open(example1, "r")
 print(file1.name)

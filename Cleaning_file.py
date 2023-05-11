@@ -49,7 +49,7 @@ exReg = 'inactive.txt'
 cleanFiles(memReg,exReg)
 
 
-headers ="Membership No  Date Joined  Active  \n"
+headers = "Membership No  Date Joined  Active  \n"
 with open(memReg,'r') as readFile:
     print("Active Members: \n\n")
     print(readFile.read())
