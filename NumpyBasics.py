@@ -52,7 +52,7 @@ arr3 = np.multiply(arr1, arr2)
 
 x = np.linspace(0, 2*np.pi, num=100)
 y = np.sin(x)
-plt.plot(x, y)
+# plt.plot(x, y)
 
 
 def Plotvec1(u, z, v):
@@ -72,4 +72,4 @@ def Plotvec1(u, z, v):
 u = np.array([1, 0])
 v = np.array([0, 1])
 z = np.add(u, v)
-# Plotvec1(u,z,v)
+Plotvec1(u,z,v)
