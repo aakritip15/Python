@@ -45,8 +45,9 @@ arr1 = np.array([10, 11, 12, 13, 14, 15])
 arr2 = np.array([20, 21, 22, 23, 24, 25])
 
 arr3 = np.add(arr1, arr2)
-arr3 = np.dot(arr1, arr2)
-arr3 = np.multiply(arr1, arr2)
+arr3 = np.multiply(arr1, arr2) #Multiplying corresponding element
+arr3 = np.dot(arr1, arr2)  #adding multiplication of corresponding element
+
 
 #Sine Curve 
 
